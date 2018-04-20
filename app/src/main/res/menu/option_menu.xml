@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Logouts"
+        android:actionLayout="@layout/activity_menu"
+        android:icon="@drawable/person"
+        android:title="@string/Logout">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:actionLayout="@layout/activity_menu"
+        android:title="@string/Exit">
+    </item>
+
+</menu>

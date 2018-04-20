@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Zuiver</string>
+    <string name="textview">Menu</string>
+    <string name="Create_Profile">Profile</string>
+    <string name="gallery">Gallery</string>
+    <string name="document">Document</string>
+    <string name="near">Near By</string>
+    <string name="person">Profile</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="place">Place</string>
+    <string name="add">Ok</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="user_registeration">User Registeration</string>
+    <string name="cnfrm">Re-Enter Password</string>
+    <string name="reg">Register</string>
+    <string name="upload">Upload</string>
+    <string name="click">Click</string>
+    <string name="Exit">Exit</string>
+    <string name="Logout">Logout</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyCLVO3U7EjlVdcqOUFACV6JwC2Hung1Lls</string>
+    <string name="hospital">Hospitals</string>
+    <string name="atm">ATM</string>
+    <string name="restaurants">Restaurants</string>
+</resources>

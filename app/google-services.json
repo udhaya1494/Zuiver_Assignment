@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "43132030464",
+    "firebase_url": "https://zuiver-b329e.firebaseio.com",
+    "project_id": "zuiver-b329e",
+    "storage_bucket": "zuiver-b329e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43132030464:android:396f0dae30037f10",
+        "android_client_info": {
+          "package_name": "com.udhaii.zuiver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43132030464-nesfb78ckp25kp6pmdvtp182512869kv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udhaii.zuiver",
+            "certificate_hash": "9ae6c545c10507f964f27fe37bc8953d584881ad"
+          }
+        },
+        {
+          "client_id": "43132030464-g5aakjvcfumbnf6k1m5na53hpt3b9k5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCis12pQHIqse3Owdtf5muSqEWo4uOzBFQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43132030464-g5aakjvcfumbnf6k1m5na53hpt3b9k5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

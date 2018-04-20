@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_amber_700"
+    tools:context=".Menu">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="@string/textview"
+        android:textColorLink="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/md_amber_700">
+
+                <com.ebanx.swipebtn.SwipeButton
+                    android:id="@+id/sb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@color/md_amber_700"
+                    app:button_background="@drawable/person_add"
+                    app:button_bottom_padding="20sp"
+                    app:button_image_enabled="@drawable/personslide"
+                    app:button_left_padding="20dp"
+                    app:button_right_padding="20sp"
+                    app:button_top_padding="20sp"
+                    app:inner_text="@string/Create_Profile"
+                    app:inner_text_background="@drawable/shape_rounded"
+                    app:inner_text_color="@color/md_white_1000"
+
+
+                    app:inner_text_size="36sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/round">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/md_amber_700">
+
+                <com.ebanx.swipebtn.SwipeButton
+                    android:id="@+id/sb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    app:button_background="@drawable/gallery"
+                    app:button_bottom_padding="20sp"
+
+                    app:button_image_enabled="@drawable/addphoto"
+                    app:button_left_padding="20dp"
+                    app:button_right_padding="20sp"
+                    app:button_top_padding="20sp"
+                    app:inner_text="@string/gallery"
+                    app:inner_text_size="36sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/round">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/md_amber_700">
+
+                <com.ebanx.swipebtn.SwipeButton
+                    android:id="@+id/sb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    app:button_background="@drawable/document"
+                    app:button_bottom_padding="20sp"
+
+                    app:button_image_enabled="@drawable/pdf"
+                    app:button_left_padding="20dp"
+                    app:button_right_padding="20sp"
+                    app:button_top_padding="20sp"
+                    app:inner_text="@string/document"
+                    app:inner_text_size="36sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/round">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/md_amber_700">
+
+                <com.ebanx.swipebtn.SwipeButton
+                    android:id="@+id/sb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    app:button_background="@drawable/nearby"
+                    app:button_bottom_padding="20sp"
+                    app:button_image_enabled="@drawable/place_slide"
+                    app:button_left_padding="20dp"
+                    app:button_right_padding="20sp"
+                    app:button_top_padding="20sp"
+                    app:inner_text="@string/near"
+                    app:inner_text_size="36sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
